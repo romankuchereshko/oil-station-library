@@ -5,7 +5,6 @@ import java.util.UUID;
 
 import lombok.Builder;
 import lombok.Data;
-import oil.station.domain.value.Value;
 
 @Data
 @Builder(toBuilder = true)
@@ -15,19 +14,19 @@ public class Frame {
 
     private UUID wellId;
 
-    private Value voltage;
+    private Double voltage;
 
-    private Value current;
+    private Double current;
 
-    private Value speed;
+    private Double speed;
 
-    private Value frequency;
+    private Double frequency;
 
-    private Value temperature;
+    private Double temperature;
 
-    private Value pressure;
+    private Double pressure;
 
-    private Value liquidFlowRate;
+    private Double liquidFlowRate;
 
     private LocalDateTime creationDateTime;
 
