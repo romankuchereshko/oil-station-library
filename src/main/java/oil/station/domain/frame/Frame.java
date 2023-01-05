@@ -10,7 +10,7 @@ import lombok.Data;
 @Builder(toBuilder = true)
 public class Frame {
 
-    private UUID frameId;
+    private UUID id;
 
     private UUID wellId;
 
