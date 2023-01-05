@@ -12,7 +12,7 @@ public class Frame {
 
     private UUID id;
 
-    private UUID wellId;
+    private Long wellId;
 
     private Double voltage;
 
@@ -29,5 +29,7 @@ public class Frame {
     private Double liquidFlowRate;
 
     private LocalDateTime creationDateTime;
+
+    private boolean isCriticalValue;
 
 }
