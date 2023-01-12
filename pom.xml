@@ -11,7 +11,7 @@
     </parent>
     <groupId>oil.station</groupId>
     <artifactId>library</artifactId>
-    <version>1.3-SNAPSHOT</version>
+    <version>1.4-SNAPSHOT</version>
 
     <name>library</name>
 

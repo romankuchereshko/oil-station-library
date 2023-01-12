@@ -28,7 +28,9 @@ public class Frame {
 
     private Double liquidFlowRate;
 
-    private LocalDateTime creationDateTime;
+    private LocalDateTime createdAt;
+
+    private LocalDateTime updatedAt;
 
     private boolean isCriticalValue;
 
