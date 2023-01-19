@@ -36,6 +36,8 @@ public class Frame implements Serializable {
 
     private Double liquidFlowRate;
 
+    private Boolean isCritical;
+
     @JsonDeserialize(using = LocalDateTimeDeserializer.class)
     @JsonSerialize(using = LocalDateTimeSerializer.class)
     private LocalDateTime createdAt;
@@ -43,7 +45,5 @@ public class Frame implements Serializable {
     @JsonDeserialize(using = LocalDateTimeDeserializer.class)
     @JsonSerialize(using = LocalDateTimeSerializer.class)
     private LocalDateTime updatedAt;
-
-    private boolean isCritical;
 
 }
