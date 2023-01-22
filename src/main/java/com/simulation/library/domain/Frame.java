@@ -1,4 +1,4 @@
-package oil.station.domain.frame;
+package com.simulation.library.domain;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
